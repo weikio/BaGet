@@ -39,7 +39,8 @@ namespace BaGet.Web
                 Query = query ?? string.Empty,
             };
 
-            return await _searchService.SearchAsync(request, cancellationToken);
+            var searchResponse = await _searchService.SearchAsync(request, cancellationToken);
+            return searchResponse;
         }
 
         public async Task<ActionResult<AutocompleteResponse>> AutocompleteAsync(
