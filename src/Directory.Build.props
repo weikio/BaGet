@@ -37,8 +37,8 @@
 
   <!-- NuGet dependencies shared across projects -->
   <PropertyGroup>
-    <MicrosoftEntityFrameworkCorePackageVersion>6.0.8</MicrosoftEntityFrameworkCorePackageVersion>
-    <MicrosoftExtensionsPackageVersion>6.0.0</MicrosoftExtensionsPackageVersion>
+    <MicrosoftEntityFrameworkCorePackageVersion>7.0.1</MicrosoftEntityFrameworkCorePackageVersion>
+    <MicrosoftExtensionsPackageVersion>7.0.0</MicrosoftExtensionsPackageVersion>
     <NuGetPackageVersion>5.10.0</NuGetPackageVersion>
   </PropertyGroup>
 
